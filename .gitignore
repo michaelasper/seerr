@@ -1,0 +1,41 @@
+# Xcode
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# SwiftPM
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# macOS
+.DS_Store
+*.swp
+
+# User settings
+xcuserdata/
+Seerr/Tests/Seerr/Tests/APIClientTests.swift
+
+# Logs
+*.log
+
+# Result bundles
+*.xcresult
+
+# Local env files
+.env
+.env.local

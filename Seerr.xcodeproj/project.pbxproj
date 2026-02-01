@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14AEB6F0A2AC2688C6125471 /* DiscoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC713BA72F8118AF8B24CD /* DiscoverViewModel.swift */; };
+		1B867420E391429BCBAFE768 /* StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A52E792E9F7BB95EC584A6 /* StatusBadge.swift */; };
+		26EF438A60B9472E49B93477 /* .env.local.example in Resources */ = {isa = PBXBuildFile; fileRef = D8E6E42A44329E7EEC32A9C6 /* .env.local.example */; };
+		2893359D0791A3486A2A8CB0 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331F3FD4B3E0EEF097D253F9 /* SearchViewModel.swift */; };
+		3CFA3C887BAF69B9E436DB68 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514434A4F9EEF5275ADC1A8E /* PosterView.swift */; };
+		468B22DEB83BB13C09EE422C /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0694BC4B3A99F3CC992FB468 /* MockServer.swift */; };
+		48CC38C9BD32B12A2B82F826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698FE9164A7C34F2E270B4CB /* Foundation.framework */; };
+		5D3F8D7A62CCB843C1857E64 /* RequestListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC45B08148C7D8E1922361D /* RequestListViewModel.swift */; };
+		67FD29FB05AC57B816A6ED5C /* SeerrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC58B185C0ED05AEF5BF33 /* SeerrUITests.swift */; };
+		6BF4F9CA4267007FF8E75EC0 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4801F306906BCF39D2B66D /* Color+Hex.swift */; };
+		6E8D201D68566D271D822C4D /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D43C02293308CC1E213FC78 /* DiscoverView.swift */; };
+		7953FE3C68579A7CD7F928FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C74EF6DF3DBC15EF29583E /* Assets.xcassets */; };
+		7E138528E00DD8E1DF92F53C /* SetupFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC6476FDA0A20F6027ACB2 /* SetupFlowView.swift */; };
+		7E5AD58261D95A589DD96C53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698FE9164A7C34F2E270B4CB /* Foundation.framework */; };
+		7F6D651BE0E47BA13AB5DF60 /* OverseerrModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E978DB1FEC57C39AC48C0 /* OverseerrModels.swift */; };
+		9073F947FCA6DF834D7CF7A7 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = D230A77F49016F3A1F7E60BB /* Preview Content */; };
+		932CE9D4F4AF96AE5BD84244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72070C81EA776648EF13AD /* ContentView.swift */; };
+		AA3C8D8B9AF7324BCA7F4002 /* RequestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB628304FCF43F23539F24CC /* RequestListView.swift */; };
+		AA4EE89939B80297E75686F5 /* OverseerrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B12A662015FDF38E26769AF /* OverseerrAPI.swift */; };
+		AAC6148BF140EBF408D29658 /* SeerrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF006AEB22AF2EDD167FDC3 /* SeerrApp.swift */; };
+		CDE06783E2639380369860AF /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2A3B9EAC5E1F64E86FC07 /* AppSettings.swift */; };
+		D4241F99B8CC4DAE0CE06B2F /* RequestRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F4A852591EE479D9A5CFE /* RequestRow.swift */; };
+		DF491563C7663FEDD0839543 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ACEB348300E5D68796DD09 /* SettingsView.swift */; };
+		EFB18C9F710C36B320F44066 /* MediaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7262201B8CFAAFA0FFD6BB31 /* MediaDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2054E4DEC4C8BFC8D551D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5488A5117D01AF27BDF293A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BC18DC60D40BC6A2FB444E;
+			remoteInfo = Seerr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0694BC4B3A99F3CC992FB468 /* MockServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockServer.swift; path = Seerr/Networking/MockServer.swift; sourceTree = "<group>"; };
+		093F4A852591EE479D9A5CFE /* RequestRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestRow.swift; path = Views/Requests/RequestRow.swift; sourceTree = "<group>"; };
+		0CF006AEB22AF2EDD167FDC3 /* SeerrApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeerrApp.swift; path = SeerrApp.swift; sourceTree = "<group>"; };
+		0D77BF7811ACE5D1F041E26D /* Seerr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seerr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4801F306906BCF39D2B66D /* Color+Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Seerr/Extensions/Color+Hex.swift"; sourceTree = "<group>"; };
+		202E978DB1FEC57C39AC48C0 /* OverseerrModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverseerrModels.swift; path = Models/OverseerrModels.swift; sourceTree = "<group>"; };
+		331F3FD4B3E0EEF097D253F9 /* SearchViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = Seerr/Views/Discover/SearchViewModel.swift; sourceTree = "<group>"; };
+		34D09A08B6EAFB9F86B43B3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SeerrUITests/Info.plist; sourceTree = "<group>"; };
+		4BBC58B185C0ED05AEF5BF33 /* SeerrUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeerrUITests.swift; path = SeerrUITests/SeerrUITests.swift; sourceTree = "<group>"; };
+		514434A4F9EEF5275ADC1A8E /* PosterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PosterView.swift; path = Views/Components/PosterView.swift; sourceTree = "<group>"; };
+		698FE9164A7C34F2E270B4CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D43C02293308CC1E213FC78 /* DiscoverView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscoverView.swift; path = Seerr/Views/Discover/DiscoverView.swift; sourceTree = "<group>"; };
+		7262201B8CFAAFA0FFD6BB31 /* MediaDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaDetailView.swift; path = Seerr/Views/MediaDetailView.swift; sourceTree = "<group>"; };
+		7B12A662015FDF38E26769AF /* OverseerrAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverseerrAPI.swift; path = Networking/OverseerrAPI.swift; sourceTree = "<group>"; };
+		87EC713BA72F8118AF8B24CD /* DiscoverViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscoverViewModel.swift; path = Seerr/Views/Discover/DiscoverViewModel.swift; sourceTree = "<group>"; };
+		A1ACEB348300E5D68796DD09 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		BADC6476FDA0A20F6027ACB2 /* SetupFlowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SetupFlowView.swift; path = Seerr/Views/SetupFlowView.swift; sourceTree = "<group>"; };
+		BFC45B08148C7D8E1922361D /* RequestListViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestListViewModel.swift; path = Views/Requests/RequestListViewModel.swift; sourceTree = "<group>"; };
+		BFD2A3B9EAC5E1F64E86FC07 /* AppSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppSettings.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		CD5CB37EB0EF4CA882A7CCCC /* SeerrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeerrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D230A77F49016F3A1F7E60BB /* Preview Content */ = {isa = PBXFileReference; includeInIndex = 1; name = "Preview Content"; path = "Resources/Preview Content"; sourceTree = "<group>"; };
+		D8E6E42A44329E7EEC32A9C6 /* .env.local.example */ = {isa = PBXFileReference; includeInIndex = 1; name = .env.local.example; path = Seerr/Resources/.env.local.example; sourceTree = "<group>"; };
+		DD72070C81EA776648EF13AD /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5A52E792E9F7BB95EC584A6 /* StatusBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusBadge.swift; path = Views/Components/StatusBadge.swift; sourceTree = "<group>"; };
+		E6C74EF6DF3DBC15EF29583E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		EB628304FCF43F23539F24CC /* RequestListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestListView.swift; path = Views/Requests/RequestListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A9D23B5C6EE3731506A2A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CC38C9BD32B12A2B82F826 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA29C887CBC8BAF8EF4E8444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AD58261D95A589DD96C53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE100788996B965C1E01239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D77BF7811ACE5D1F041E26D /* Seerr.app */,
+				CD5CB37EB0EF4CA882A7CCCC /* SeerrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		271BD84C8371C00DAA8E025C /* SeerrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC58B185C0ED05AEF5BF33 /* SeerrUITests.swift */,
+				34D09A08B6EAFB9F86B43B3C /* Info.plist */,
+			);
+			name = SeerrUITests;
+			sourceTree = "<group>";
+		};
+		9316E55E5EE690E2818C946B /* Seerr */ = {
+			isa = PBXGroup;
+			children = (
+				BFD2A3B9EAC5E1F64E86FC07 /* AppSettings.swift */,
+				DD72070C81EA776648EF13AD /* ContentView.swift */,
+				202E978DB1FEC57C39AC48C0 /* OverseerrModels.swift */,
+				7B12A662015FDF38E26769AF /* OverseerrAPI.swift */,
+				0CF006AEB22AF2EDD167FDC3 /* SeerrApp.swift */,
+				514434A4F9EEF5275ADC1A8E /* PosterView.swift */,
+				E5A52E792E9F7BB95EC584A6 /* StatusBadge.swift */,
+				EB628304FCF43F23539F24CC /* RequestListView.swift */,
+				BFC45B08148C7D8E1922361D /* RequestListViewModel.swift */,
+				093F4A852591EE479D9A5CFE /* RequestRow.swift */,
+				A1ACEB348300E5D68796DD09 /* SettingsView.swift */,
+				E6C74EF6DF3DBC15EF29583E /* Assets.xcassets */,
+				D230A77F49016F3A1F7E60BB /* Preview Content */,
+			);
+			name = Seerr;
+			path = Seerr;
+			sourceTree = "<group>";
+		};
+		9A46B99CA91595F30D30A7AF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				698FE9164A7C34F2E270B4CB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A213CBA7D6931A31C0538134 = {
+			isa = PBXGroup;
+			children = (
+				0AE100788996B965C1E01239 /* Products */,
+				F166B4B026AA5DC5A3CEA8B4 /* Frameworks */,
+				9316E55E5EE690E2818C946B /* Seerr */,
+				271BD84C8371C00DAA8E025C /* SeerrUITests */,
+				0694BC4B3A99F3CC992FB468 /* MockServer.swift */,
+				BADC6476FDA0A20F6027ACB2 /* SetupFlowView.swift */,
+				6D43C02293308CC1E213FC78 /* DiscoverView.swift */,
+				87EC713BA72F8118AF8B24CD /* DiscoverViewModel.swift */,
+				331F3FD4B3E0EEF097D253F9 /* SearchViewModel.swift */,
+				7262201B8CFAAFA0FFD6BB31 /* MediaDetailView.swift */,
+				1D4801F306906BCF39D2B66D /* Color+Hex.swift */,
+				D8E6E42A44329E7EEC32A9C6 /* .env.local.example */,
+			);
+			sourceTree = "<group>";
+		};
+		F166B4B026AA5DC5A3CEA8B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A46B99CA91595F30D30A7AF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64283059088178B280BDCCBF /* SeerrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2B2C0A616E71089084A71B /* Build configuration list for PBXNativeTarget "SeerrUITests" */;
+			buildPhases = (
+				6D6D3C9341B822C256618B70 /* Sources */,
+				4A9D23B5C6EE3731506A2A0E /* Frameworks */,
+				65ACF48772FBE7321DF961C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41DB2EA0B7A33A1A578CB0F /* PBXTargetDependency */,
+			);
+			name = SeerrUITests;
+			productName = SeerrUITests;
+			productReference = CD5CB37EB0EF4CA882A7CCCC /* SeerrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F0BC18DC60D40BC6A2FB444E /* Seerr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589A90290771A1758D114355 /* Build configuration list for PBXNativeTarget "Seerr" */;
+			buildPhases = (
+				F2181AD0CCE076F65FCC0D43 /* Sources */,
+				DA29C887CBC8BAF8EF4E8444 /* Frameworks */,
+				680B188E4CBBEDCF20ABBD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seerr;
+			productName = Seerr;
+			productReference = 0D77BF7811ACE5D1F041E26D /* Seerr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5488A5117D01AF27BDF293A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 9D90BD2D3DE7BF1767CD9FBE /* Build configuration list for PBXProject "Seerr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A213CBA7D6931A31C0538134;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0AE100788996B965C1E01239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0BC18DC60D40BC6A2FB444E /* Seerr */,
+				64283059088178B280BDCCBF /* SeerrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65ACF48772FBE7321DF961C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680B188E4CBBEDCF20ABBD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7953FE3C68579A7CD7F928FE /* Assets.xcassets in Resources */,
+				9073F947FCA6DF834D7CF7A7 /* Preview Content in Resources */,
+				26EF438A60B9472E49B93477 /* .env.local.example in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D6D3C9341B822C256618B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FD29FB05AC57B816A6ED5C /* SeerrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2181AD0CCE076F65FCC0D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE06783E2639380369860AF /* AppSettings.swift in Sources */,
+				932CE9D4F4AF96AE5BD84244 /* ContentView.swift in Sources */,
+				7F6D651BE0E47BA13AB5DF60 /* OverseerrModels.swift in Sources */,
+				AA4EE89939B80297E75686F5 /* OverseerrAPI.swift in Sources */,
+				AAC6148BF140EBF408D29658 /* SeerrApp.swift in Sources */,
+				3CFA3C887BAF69B9E436DB68 /* PosterView.swift in Sources */,
+				1B867420E391429BCBAFE768 /* StatusBadge.swift in Sources */,
+				AA3C8D8B9AF7324BCA7F4002 /* RequestListView.swift in Sources */,
+				5D3F8D7A62CCB843C1857E64 /* RequestListViewModel.swift in Sources */,
+				D4241F99B8CC4DAE0CE06B2F /* RequestRow.swift in Sources */,
+				DF491563C7663FEDD0839543 /* SettingsView.swift in Sources */,
+				468B22DEB83BB13C09EE422C /* MockServer.swift in Sources */,
+				7E138528E00DD8E1DF92F53C /* SetupFlowView.swift in Sources */,
+				6E8D201D68566D271D822C4D /* DiscoverView.swift in Sources */,
+				14AEB6F0A2AC2688C6125471 /* DiscoverViewModel.swift in Sources */,
+				2893359D0791A3486A2A8CB0 /* SearchViewModel.swift in Sources */,
+				EFB18C9F710C36B320F44066 /* MediaDetailView.swift in Sources */,
+				6BF4F9CA4267007FF8E75EC0 /* Color+Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C41DB2EA0B7A33A1A578CB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Seerr;
+			target = F0BC18DC60D40BC6A2FB444E /* Seerr */;
+			targetProxy = F2054E4DEC4C8BFC8D551D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04EC99878D44C284CDBA746A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				INFOPLIST_FILE = SeerrUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.seerr.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TEST_TARGET_NAME = Seerr;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BDE6D1FB7B3898970738A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				INFOPLIST_FILE = Seerr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.seerr;
+				PRODUCT_NAME = Seerr;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7804015833C06A880FC2A13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				INFOPLIST_FILE = SeerrUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.seerr.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TEST_TARGET_NAME = Seerr;
+			};
+			name = Debug;
+		};
+		879015611D9E895774F53401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		AB95F60D5812F415FF6AB5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		CC82D1522332AB2867DB937A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				INFOPLIST_FILE = Seerr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.seerr;
+				PRODUCT_NAME = Seerr;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D2B2C0A616E71089084A71B /* Build configuration list for PBXNativeTarget "SeerrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EC99878D44C284CDBA746A /* Release */,
+				7804015833C06A880FC2A13C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		589A90290771A1758D114355 /* Build configuration list for PBXNativeTarget "Seerr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDE6D1FB7B3898970738A75 /* Release */,
+				CC82D1522332AB2867DB937A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D90BD2D3DE7BF1767CD9FBE /* Build configuration list for PBXProject "Seerr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879015611D9E895774F53401 /* Debug */,
+				AB95F60D5812F415FF6AB5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5488A5117D01AF27BDF293A3 /* Project object */;
+}
