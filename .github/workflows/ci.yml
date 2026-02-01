@@ -18,5 +18,13 @@ jobs:
           key: ${{ runner.os }}-deriveddata-${{ hashFiles('**/*.swift') }}
       - name: Build and Test
         run: |
-          DESTINATION="platform=iOS Simulator,name=iPhone 15" make test || \
-          DESTINATION="platform=iOS Simulator,name=iPhone 14" make test
+          xcodebuild -project Seerr.xcodeproj \
+            -scheme Seerr \
+            -configuration Debug \
+            -destination "platform=iOS Simulator,name=iPhone 15" \
+            test \
+          || xcodebuild -project Seerr.xcodeproj \
+            -scheme Seerr \
+            -configuration Debug \
+            -destination "platform=iOS Simulator,name=iPhone 14" \
+            test
